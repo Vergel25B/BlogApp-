@@ -13,8 +13,8 @@ import { Appbar } from 'react-native-paper';
 export default function TabTwoScreen({ navigation }: RootTabScreenProps<'TabTwo'>) {
 
   const [loading, setLoading] = useState<boolean>(true);
-  const[email, setEmail]=useState<string>("helloworld@gmail.com");
-  const[password, setPassword]=useState<string>("654321");
+  const[email, setEmail]=useState<string>("juandelacruz@gmail.com");
+  const[password, setPassword]=useState<string>("666666");
 
   setTimeout (() => {
     setLoading(false);
@@ -29,9 +29,9 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'TabTwo'
       <View style={{
         height: '100%',
         width: '100%',
-        backgroundColor: '#0a191e',
+        backgroundColor: 'lightblue',
         borderRadius: 10,
-        borderColor: '#0a191e',
+        borderColor: 'pink',
         overflow: 'hidden',
         padding: 10,
         borderWidth: 10,
@@ -63,17 +63,9 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'TabTwo'
             paddingVertical: 0,
             color: '#fde2e4'
           }}>
-          W E L C O M E !
+          W E L C O M E ! To Our Blog App.
           </Text>
-          <Text style={{
-            fontSize: 13,
-            fontWeight: 'bold',
-            paddingVertical: 10,
-            color: '#fde2e4',
-            fontFamily: 'poppins-bold'
-          }}>
-          This app was created by the BROgrammers Group.
-          </Text>
+          
         </View>
 
         <View style={{
